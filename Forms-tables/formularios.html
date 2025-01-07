@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        ********************************************************
+        *File:          formularios.html
+        *Author:        Eng. Bulmaro Noguera
+        *Purpose:       Creating a basic forms using HTML 5
+        *Version:       1.0
+        ********************************************************
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <!--Acá vamos a empezar a escribir nuestro código-->
+    <!--Add a forms lable for create a form in our website-->
+    <form action="resultados.html" method="get">
+        <!--text camp DIV for input information-->
+        <div>
+            <!--Name of user-->
+            <label for="user_name">User</label>
+            <input name="user_name" id="user_name" type="text" required />
+        </div>
+        <div>
+            <label for="comments">Comentarios</label>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>            
+        </div>
+        <!--text camp DIV for input information-->
+        <div>
+            <!--Input type Password-->
+            <label for="user_password">Password</label>
+            <input name="user_password" id="user_password" type="password" required />
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input name="age" type="number" id="age" min="0" max="150" required />
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="fecha">What is your birth day</label>
+            <input type="date" name="fecha" id="fecha" required />
+        </div>
+        <!--Buttom for send info-->
+        <button type="reset">Reset</button>
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
