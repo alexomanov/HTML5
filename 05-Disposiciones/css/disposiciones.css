@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.seccion-1, .seccion-2 {
+    background-color: red;
+}
+
+main img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.span-1, .span-2 {
+    background-color: aquamarine;
+    float: right;
+}
+
+.span-2 {
+    background-color: aquamarine;
+    float: left;
+}
